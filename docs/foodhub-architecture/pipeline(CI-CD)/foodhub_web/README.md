@@ -9,7 +9,7 @@ The pipeline automates the release process for both **UI** and **API** applicati
 It integrates JIRA for release management, AWS services for build and deployment, and self-hosted tools for orchestration.
 
 ### Architecture Diagram
-![Foodhub Web CI/CD Pipeline](pipeline.drawio)
+![Foodhub Web CI/CD Pipeline](pipeline.png)
 
 ---
 

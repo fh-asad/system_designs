@@ -1,6 +1,7 @@
-# Welcome to MkDocs
+# Foodhub System Designs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the Foodhub System Designs documentation.  
+This site provides architecture diagrams, design notes, and implementation details for Foodhub’s various systems and services. Explore the pages to understand system flows, integrations, and infrastructure.
 
 ## Commands
 
@@ -15,3 +16,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+---
+
+*This documentation site is built using [MkDocs](https://www.mkdocs.org) and the Material theme.*

@@ -9,7 +9,7 @@ The system is designed to serve Foodhub’s web and API traffic securely, effici
 It leverages **Cloudflare** for global DNS, security, and traffic management, while **AWS** handles content delivery, application hosting, and data persistence.
 
 ### Architecture Diagram
-![Foodhub Web Architecture](architecture.drawio)
+![Foodhub Web Architecture](diagram.png)
 
 ---
 

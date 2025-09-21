@@ -36,7 +36,6 @@ repo_name: fh-asad/system_designs
 plugins:
   - search:
       separator: '[\s\-,;!?]+'
-      min_search_length: 3
   - minify:
       minify_html: true
 

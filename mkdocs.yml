@@ -1,0 +1,9 @@
+site_name: Foodhub Architecture Diagrams
+theme:
+  name: material
+docs_dir: docs          # or set to 'docs' if you moved files
+plugins:
+  - search
+  - drawio-exporter:
+      drawio_executable: "/Applications/draw.io.app/Contents/MacOS/draw.io"   # adapt to your OS
+      format: svg

@@ -1,9 +1,77 @@
-site_name: Foodhub Architecture Diagrams
+site_name: System Designs
+site_description: Comprehensive documentation of Foodhub's system architecture
+site_author: Foodhub Engineering Team
+
 theme:
   name: material
-docs_dir: docs          # or set to 'docs' if you moved files
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - content.images.lightbox
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: indigo
+      accent: indigo
+# Custom fonts (optional)
+  font:
+    text: Inter
+    code: Fira Code
+    icon: material
+
+docs_dir: docs
+repo_url: https://github.com/fh-asad/system_designs
+repo_name: fh-asad/system_designs
+
 plugins:
-  - search
-  - drawio-exporter:
-      drawio_executable: "/Applications/draw.io.app/Contents/MacOS/draw.io"   # adapt to your OS
-      format: svg
+  - search:
+      separator: '[\s\-,;!?]+'
+      min_search_length: 3
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/foodhub
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/foodhub
+
+extra_javascript:
+  - js/zoom.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - js/custom.js
+
+extra_css:
+  - css/zoom.css
+  - css/print.css
+  - css/foodhub-red-theme.css
+
+copyright: |
+  Copyright &copy; 2025 Foodhub - 
+  <a href="/privacy">Privacy Policy</a>

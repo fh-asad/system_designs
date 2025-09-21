@@ -1,6 +1,6 @@
-# Foodhub Web Architecture
+# Details
 
-This document explains the end-to-end flow of the **Foodhub Web Architecture** as illustrated in the architecture diagram.
+This Architecture document explains the end-to-end flow of the **Foodhub Web Architecture** as illustrated in the architecture diagram.
 
 ---
 

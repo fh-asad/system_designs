@@ -1,0 +1,131 @@
+/* Foodhub Red Theme - Modern Restaurant Branding */
+:root > * {
+    /* Primary red colors */
+    --md-primary-fg-color: #D32F2F;        /* Foodhub primary red */
+    --md-primary-fg-color--light: #E53935; /* Lighter red */
+    --md-primary-fg-color--dark: #C62828;  /* Darker red */
+    
+    /* Accent colors - complementary to red */
+    --md-accent-fg-color: #FF6E40;         /* Deep orange accent */
+    --md-accent-fg-color--transparent: rgba(255, 110, 64, 0.1);
+    
+    /* Code block colors */
+    --md-code-bg-color: #FFF5F5;
+    --md-code-fg-color: #D32F2F;
+}
+
+/* Header styling with gradient */
+.md-header {
+    background: linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%);
+    box-shadow: 0 2px 8px rgba(179, 28, 28, 0.3);
+}
+
+/* Navigation tabs */
+.md-tabs {
+    background: linear-gradient(135deg, #E53935 0%, #D32F2F 100%);
+    border-bottom: 1px solid #B71C1C;
+}
+
+.md-tabs__link--active {
+    color: #FFFFFF !important;
+    border-bottom: 3px solid #FF6E40 !important;
+    font-weight: 600;
+}
+
+.md-tabs__link:hover {
+    color: #FFCCBC !important;
+    background-color: rgba(179, 28, 28, 0.1);
+}
+
+/* Search box styling */
+.md-search__form {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(10px);
+}
+
+.md-search__form:hover {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.md-search__input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Sidebar navigation */
+.md-nav--primary .md-nav__title {
+    background: linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%);
+    color: white !important;
+    font-weight: 600;
+    padding: 4px 5px 6px 20px;
+}
+
+.md-nav__item .md-nav__link--active {
+    color: #D32F2F !important;
+    font-weight: 600;
+}
+
+.md-nav__item .md-nav__link:hover {
+    color: #FF6E40 !important;
+}
+
+/* Buttons and interactive elements */
+.md-typeset a {
+    color: #D32F2F;
+}
+
+.md-typeset a:hover {
+    color: #FF6E40;
+    text-decoration: underline;
+}
+
+/* Code blocks */
+.md-typeset code {
+    background-color: #FFF5F5;
+    color: #D32F2F;
+    border: 1px solid #FFCDD2;
+}
+
+/* Admonition boxes with red theme */
+.md-typeset .admonition.note {
+    border-left-color: #D32F2F;
+}
+
+.md-typeset .admonition.note > .admonition-title {
+    background-color: rgba(211, 47, 47, 0.1);
+    border-bottom-color: #FFCDD2;
+}
+
+/* Footer styling */
+.md-footer {
+    background: linear-gradient(135deg, #B71C1C 0%, #8B0000 100%);
+}
+
+.md-footer-meta {
+    background-color: #0a0a0a; /* Complementary purple for footer meta */
+}
+
+/* Dark mode support */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #B71C1C;
+    --md-primary-fg-color--light: #D32F2F;
+    --md-primary-fg-color--dark: #8B0000;
+    --md-accent-fg-color: #FF8A65;
+    
+    --md-code-bg-color: #2D1B1B;
+    --md-code-fg-color: #FF8A65;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+    background: linear-gradient(135deg, #B71C1C 0%, #8B0000 100%);
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+    background: linear-gradient(135deg, #C62828 0%, #B71C1C 100%);
+}
+
+/* Responsive design enhancements */
+@media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title {
+        background: linear-gradient(135deg, #D32F2F 0%, #B71C1C 100%);
+    }
+}

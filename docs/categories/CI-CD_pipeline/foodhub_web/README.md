@@ -1,6 +1,6 @@
-# Foodhub Web CI/CD Pipeline
+# Details
 
-This README documents the **Continuous Integration and Continuous Deployment (CI/CD)** process for the Foodhub Web platform.
+This Architecture documents the **Continuous Integration and Continuous Deployment (CI/CD)** process for the Foodhub Web platform.
 
 ---
 
@@ -9,7 +9,7 @@ The pipeline automates the release process for both **UI** and **API** applicati
 It integrates JIRA for release management, AWS services for build and deployment, and self-hosted tools for orchestration.
 
 ### Architecture Diagram
-![Foodhub Web CI/CD Pipeline](pipeline.png)
+![Foodhub Web CI/CD Pipeline](diagram.png)
 
 ---
 

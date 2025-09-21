@@ -1,6 +1,5 @@
-# Foodhub System Designs
-
-Welcome to the Foodhub System Designs documentation.  
+# Home 
+Welcome to the Foodhub Architecture documentation.
 This site provides architecture diagrams, design notes, and implementation details for Foodhub’s various systems and services. Explore the pages to understand system flows, integrations, and infrastructure.
 
 ## Commands

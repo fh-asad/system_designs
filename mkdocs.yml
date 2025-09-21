@@ -63,7 +63,6 @@ extra:
 
 extra_javascript:
   - js/zoom.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - js/custom.js
 
 extra_css:

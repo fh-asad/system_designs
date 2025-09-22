@@ -5,7 +5,7 @@ This Architecture document explains the end-to-end flow of the **Foodhub Web Arc
 ---
 
 ## 1. Overview
-The system is designed to serve Foodhub’s all types of websites (i.e. Native, Franchsie/Reseller and Foodhub Marketplace) and API traffic securely, efficiently, and at scale.  
+The system is designed to serve Foodhub’s all types of websites (i.e. **Native**, **Franchise/Reseller** and **Foodhub Marketplace**) and API traffic securely, efficiently, and at scale.  
 It leverages **Cloudflare** for global DNS, security, and traffic management, while **AWS** handles content delivery, application hosting, and data persistence.
 
 ### Architecture Diagram

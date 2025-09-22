@@ -1,21 +1,28 @@
-# Home 
-Welcome to the Foodhub Architecture documentation.
-This site provides architecture diagrams, design notes, and implementation details for Foodhub’s various systems and services. Explore the pages to understand system flows, integrations, and infrastructure.
+# Home
 
-## Commands
+Welcome to the central repository for Foodhub's system design and architecture documentation. This site serves as a living document, providing detailed insights into the architecture, design principles, and operational procedures of our various systems.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Existing Documentation
 
-## Project layout
+This repository currently hosts the following system design documents:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Applications
 
----
+- **[Foodhub Web Application](./categories/applications/foodhub_web/):** This document outlines the architecture of the main Foodhub web application, including its components, services, and data flows.
 
-*This documentation site is built using [MkDocs](https://www.mkdocs.org) and the Material theme.*
+### CI/CD Pipelines
+
+- **[Foodhub Web CI/CD Pipeline](./categories/CI/CD-pipeline/foodhub_web/):** This document details the continuous integration and continuous deployment pipeline for the Foodhub web application, covering everything from code commit to production deployment.
+
+## Future Expansion
+
+This documentation is continuously evolving. We encourage contributions and plan to expand the repository to include a wider range of system designs. Future additions could include:
+
+- **Mobile Application Architecture:** Detailed design of our iOS and Android applications.
+- **Microservices Architecture:** In-depth documentation for each of our backend microservices.
+- **Data Engineering Pipelines:** Designs for our data ingestion, processing, and storage pipelines.
+- **Infrastructure as Code (IaC):** Documentation for our Terraform or CloudFormation scripts.
+- **Security Architecture:** An overview of our security principles and implementation details.
+- **Disaster Recovery Plans:** Detailed plans for ensuring business continuity in case of a disaster.
+
+We welcome contributions from all teams. If you have a system design to document, please follow the existing structure and create a new subdirectory within the appropriate category.

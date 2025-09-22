@@ -91,3 +91,14 @@ It integrates JIRA for release management, AWS services for build and deployment
 - [API: Jenkins Build]  
 - Autobot Jenkins → Octopus Deploy → CodeDeploy → EC2
 ```
+
+## 5. Author
+- **Author**: Mohammed Asadullah
+- **Team**: Architecture Team
+
+---
+
+## 6. ChangeLog
+| Version | Date       | Author             | Changes                    |
+|---------|------------|--------------------|----------------------------|
+| 1.0     | 2025-09-16 | Mohammed Asadullah | Initial document creation. |

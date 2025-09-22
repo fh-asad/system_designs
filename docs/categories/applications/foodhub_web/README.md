@@ -94,3 +94,16 @@ It leverages **Cloudflare** for global DNS, security, and traffic management, wh
 Browser → Cloudflare DNS → Cloudflare Edge (WAF/Bot Control) → Cloudflare LB → CloudFront (WAF, Cache)
 → [Static: Lambda → S3] OR [API: WAF → ALB → EC2 → Redis/RDS]
 ```
+
+---
+
+## 6. Author
+- **Author**: Mohammed Asadullah & Raguraman Krishnamoorthy
+- **Team**: Architecture Team
+
+---
+
+## 7. ChangeLog
+| Version | Date       | Author             | Changes                    |
+|---------|------------|--------------------|----------------------------|
+| 1.0     | 2025-09-16 | Mohammed Asadullah & Raguraman Krishnamoorthy | Initial document creation. |

@@ -12,7 +12,7 @@ This repository currently hosts the following system design documents:
 
 ### CI/CD Pipelines
 
-- **[Foodhub Web CI/CD Pipeline](./categories/CI/CD-pipeline/foodhub_web/):** This document details the continuous integration and continuous deployment pipeline for the Foodhub web application, covering everything from code commit to production deployment.
+- **[Foodhub Web CI/CD Pipeline](./categories/CI%5CCD-pipeline/foodhub_web/):** This document details the continuous integration and continuous deployment pipeline for the Foodhub web application, covering everything from code commit to production deployment.
 
 ## Future Expansion
 

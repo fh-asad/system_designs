@@ -1,4 +1,4 @@
-# Details
+# Foodhub Web
 
 This Architecture document explains the end-to-end flow of the **Foodhub Web Architecture** as illustrated in the architecture diagram.
 
@@ -9,7 +9,7 @@ The system is designed to serve Foodhub’s all types of websites (i.e. **Native
 It leverages **Cloudflare** for global DNS, security, and traffic management, while **AWS** handles content delivery, application hosting, and data persistence.
 
 ### Architecture Diagram
-![Foodhub Web Architecture](diagram.png)
+![Foodhub Web Architecture](fh_web.png)
 
 ---
 

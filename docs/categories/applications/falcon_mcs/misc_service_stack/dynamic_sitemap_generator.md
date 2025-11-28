@@ -1,4 +1,4 @@
-# Details
+# Dynamic SiteMap Generator
 
 This Architecture documents the **Dynamic Sitemap Generator** stack for the Foodhub platform.
 
@@ -12,7 +12,7 @@ The stack runs daily using **EventBridge** or can be triggered manually via **La
 It operates within the **eu-west-1** AWS region and interacts with RDS, S3, and CloudFront services to generate and distribute sitemaps efficiently.
 
 ### Architecture Diagram
-![Dynamic Sitemap Generator](arch-sitemap-generator.png)
+![Dynamic Sitemap Generator](dynamic_sitemap_generator.png)
 
 ---
 
